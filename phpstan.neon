@@ -1,0 +1,11 @@
+parameters:
+    level: 8
+    paths:
+        - src
+    checkMissingIterableValueType: false
+    checkGenericClassInNonGenericObjectType: false
+    ignoreErrors:
+        - '#PHPDoc tag @var for variable \$[a-zA-Z]+ contains unresolvable type#'
+        - '#Call to an undefined method Illuminate\\Cache\\Repository::[a-zA-Z]+\(\)#'
+    excludePaths:
+        - vendor/*
